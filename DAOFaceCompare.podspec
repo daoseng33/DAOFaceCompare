@@ -27,6 +27,7 @@ This tool use Vision and Facenet to detect and compare faces.
   s.author           = { 'DAO' => 'daoseng33@gmail.com' }
   s.source           = { :git => 'git@github.com:daoseng33/DAOFaceCompare.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/daoseng33'
+  s.swift_version = '5.0'
 
   s.ios.deployment_target = '13.0'
 
