@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 This tool use Vision and Facenet to detect and compare faces.
                        DESC
 
-  s.homepage         = 'https://github.com/DAO/DAOFaceCompare'
+  s.homepage         = 'https://github.com/daoseng33/DAOFaceCompare'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DAO' => 'daoseng33@gmail.com' }
