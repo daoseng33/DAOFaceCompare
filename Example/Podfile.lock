@@ -1,0 +1,31 @@
+PODS:
+  - DAOFaceCompare (0.1.0):
+    - TensorFlowLiteSwift (~> 2)
+  - TensorFlowLiteC (2.13.0):
+    - TensorFlowLiteC/Core (= 2.13.0)
+  - TensorFlowLiteC/Core (2.13.0)
+  - TensorFlowLiteSwift (2.13.0):
+    - TensorFlowLiteSwift/Core (= 2.13.0)
+  - TensorFlowLiteSwift/Core (2.13.0):
+    - TensorFlowLiteC (= 2.13.0)
+
+DEPENDENCIES:
+  - DAOFaceCompare (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+EXTERNAL SOURCES:
+  DAOFaceCompare:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DAOFaceCompare: 44a387c16e71f7ba30c3b356b1badd9cdb1fcb12
+  TensorFlowLiteC: ac3334fa9dbc90e4744b4497312a393fd02b5408
+  TensorFlowLiteSwift: 1d8320fbf292054eb50ef0b347a4b17a92b49731
+
+PODFILE CHECKSUM: 521e2a4a1b872d601f1d36708721debaf81c698b
+
+COCOAPODS: 1.12.1

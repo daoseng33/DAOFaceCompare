@@ -1,0 +1,6 @@
+framework module DAOFaceCompare {
+  umbrella header "DAOFaceCompare-umbrella.h"
+
+  export *
+  module * { export * }
+}

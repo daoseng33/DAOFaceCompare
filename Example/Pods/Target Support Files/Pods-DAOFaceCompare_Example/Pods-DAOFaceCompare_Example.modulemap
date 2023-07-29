@@ -1,0 +1,6 @@
+framework module Pods_DAOFaceCompare_Example {
+  umbrella header "Pods-DAOFaceCompare_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
