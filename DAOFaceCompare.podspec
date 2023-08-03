@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DAOFaceCompare'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A simple tool to compare faces.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ This tool use Vision and Facenet to detect and compare faces.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DAO' => 'daoseng33@gmail.com' }
-  s.source           = { :git => 'git@github.com:daoseng33/DAOFaceCompare.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/daoseng33/DAOFaceCompare.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/daoseng33'
   s.swift_version = '5.0'
 
