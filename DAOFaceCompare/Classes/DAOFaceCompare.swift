@@ -26,26 +26,30 @@ public struct DAOFaceCompare {
         let group = DispatchGroup()
         group.enter()
         getFace(in: image1) { result in
+            defer {
+                group.leave()
+            }
+            
             switch result {
             case .success(let image):
                 faceImage1 = image
             case .failure(let error):
                 completion(.failure(error))
             }
-            
-            group.leave()
         }
         
         group.enter()
         getFace(in: image2) { result in
+            defer {
+                group.leave()
+            }
+            
             switch result {
             case .success(let image):
                 faceImage2 = image
             case .failure(let error):
                 completion(.failure(error))
             }
-            
-            group.leave()
         }
         
         group.notify(queue: .main) {
@@ -210,7 +214,7 @@ public struct DAOFaceCompare {
         do {
             try requestHandler.perform([faceLandmarksRequest])
         } catch {
-            completion(.failure(error))
+            print(error.localizedDescription)
         }
     }
 }
